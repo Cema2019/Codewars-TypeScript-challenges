@@ -5,5 +5,5 @@
 [] --> []*/
 
 export function invert(array: number[]): number[] {
-   return array.map(x => x === 0 ? -0 : -x);
+   return array.map(x => -x);
 }
